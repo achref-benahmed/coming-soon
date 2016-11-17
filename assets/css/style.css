@@ -12,6 +12,16 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+#note{
+  color: #666666;
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 4px;
+  text-align: center;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  width: 400px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
