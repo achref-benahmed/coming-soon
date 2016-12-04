@@ -177,6 +177,21 @@
 	
 	};
 
+	var goToDown = function() {
+
+		$('.js-godown').on('click', function(event){
+			
+			event.preventDefault();
+
+			$('html, body').animate({
+				scrollTop: $('html').offset().top
+			}, 500);
+			
+			return false;
+		});
+	
+	};
+
 
 	// Page Nav
 	var clickMenu = function() {
